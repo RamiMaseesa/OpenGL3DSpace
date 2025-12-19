@@ -1,82 +1,29 @@
-########################################
 # Visual Studio
-########################################
 .vs/
 *.user
 *.suo
-*.userosscache
-*.sln.docstates
+*.VC.db
+*.VC.opendb
+ipch/
 
-########################################
 # Build folders
-########################################
 Debug/
 Release/
 x64/
 x86/
-Build/
 build/
 out/
 
-########################################
+# Logs
+*.log
+
 # CMake
-########################################
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
-Makefile
 
-########################################
-# Visual Studio C++ intermediate files
-########################################
-*.obj
+# OpenGL temp
 *.pdb
-*.idb
+*.obj
 *.ilk
-*.ipdb
-*.iobj
-*.pch
-*.ipch
-*.tlog
-*.log
-*.lastbuildstate
-
-########################################
-# Executables & binaries
-########################################
 *.exe
-*.dll
-*.lib
-*.exp
-*.app
-
-########################################
-# OpenGL / Shader temporary files
-########################################
-*.spv
-*.glslc
-
-########################################
-# Assets cache (optional - remove if you want them tracked)
-########################################
-*.tmp
-*.cache
-
-########################################
-# OS generated files
-########################################
-.DS_Store
-Thumbs.db
-ehthumbs.db
-desktop.ini
-
-########################################
-# Crash dumps
-########################################
-*.dmp
-
-########################################
-# Python (if you ever use tools/scripts)
-########################################
-__pycache__/
-*.pyc
