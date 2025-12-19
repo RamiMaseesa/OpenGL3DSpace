@@ -1,44 +1,82 @@
-# Prerequisites
-*.d
+########################################
+# Visual Studio
+########################################
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+########################################
+# Build folders
+########################################
+Debug/
+Release/
+x64/
+x86/
+Build/
+build/
+out/
+
+########################################
+# CMake
+########################################
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+########################################
+# Visual Studio C++ intermediate files
+########################################
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
 *.pdb
+*.idb
+*.ilk
+*.ipdb
+*.iobj
+*.pch
+*.ipch
+*.tlog
+*.log
+*.lastbuildstate
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+########################################
+# Executables & binaries
+########################################
 *.exe
-*.out
+*.dll
+*.lib
+*.exp
 *.app
 
-# debug information files
-*.dwo
+########################################
+# OpenGL / Shader temporary files
+########################################
+*.spv
+*.glslc
 
-# Visual Studio cache
-.vs/
+########################################
+# Assets cache (optional - remove if you want them tracked)
+########################################
+*.tmp
+*.cache
+
+########################################
+# OS generated files
+########################################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+########################################
+# Crash dumps
+########################################
+*.dmp
+
+########################################
+# Python (if you ever use tools/scripts)
+########################################
+__pycache__/
+*.pyc
