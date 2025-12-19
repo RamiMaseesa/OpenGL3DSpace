@@ -1,2 +1,1 @@
-﻿  main.cpp
-  HelloWindow.vcxproj -> C:\Users\r.maseesa\Desktop\GitForOpenGL\OpenGL3DSpace\x64\Debug\HelloWindow.exe
+﻿LINK : fatal error LNK1104: cannot open file 'glfw3.lib'
